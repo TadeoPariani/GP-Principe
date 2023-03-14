@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
     --red: #FF0000;
     --black: #232020;
-    --navbarItem: "Oxygen"
+    --navbarItem: "Oxygen";
+    --Title: "Roboto"
 }
 
 /* NAVBAR */
@@ -15,7 +17,7 @@
 
 .navbarItem{
   color: black;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
   font-family: "Oxygen", sans-serif;
   padding-top: 16px;
@@ -24,14 +26,14 @@
 
 .navbarInfo{
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-family: "Oxygen", sans-serif;
   padding-top: 16px;
   padding-left: 5px;
   padding-right: 15px;
 }
-
+/* NAVBAR */
 
 
 /* LOGO */
@@ -40,6 +42,51 @@
   justify-content: center;
   align-items: center;
 }
+/* LOGO */
+
+
+/* TITULO */
+.TitleContainer{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Title{
+  color: black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 16px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+/* TITULO */
+
+/* Carrusel */
+.Carosel-Container{
+  /* margin-top: 170px; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+}
+
+.Subtitle-Container{
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.Subtitle{
+  color: white;
+  font-size: 38px;
+  font-family: "Oxygen", sans-serif;
+  padding-top: 16px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
 
 
   

@@ -12,7 +12,7 @@
 .navbar-container{
     color: var(--red);
     background-color: var(--red);
-    padding: 10px
+    /* padding: 10px */
 }
 
 .navbarItem{
@@ -38,7 +38,7 @@
 
 /* LOGO */
 .logo-container{
-  padding-top: 80px;
+  padding-top: 150px;
   justify-content: center;
   align-items: center;
 }
@@ -72,18 +72,46 @@
   background-color: var(--black);
 }
 
+
+/* TARJETAS */
+.Cards-Container{
+  /* align-items: end; */
+  align-content: flex-end;
+}
+
+.Cards-Paragraph{
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 16px;
+  padding-left: 5px;
+  padding-right: 15px;
+
+}
+
+
+
 .Subtitle-Container{
   justify-content: left;
   align-items: left;
   text-align: left;
 }
 
-.Subtitle{
+.Subtitle-White{
   color: white;
   font-size: 38px;
   font-family: "Oxygen", sans-serif;
   padding-top: 16px;
-  padding-left: 5px;
+  padding-left: 3px;
+  padding-right: 15px;
+}
+
+.Subtitle-Black{
+  color: black;
+  font-size: 38px;
+  font-family: "Oxygen", sans-serif;
+  padding-top: 16px;
+  padding-left: 1px;
   padding-right: 15px;
 }
 

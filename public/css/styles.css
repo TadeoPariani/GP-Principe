@@ -54,11 +54,21 @@
 
 .Title{
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
   padding-top: 16px;
   padding-left: 5px;
   padding-right: 15px;
+}
+
+.Title-Product{
+  color: black;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 16px;
+  padding-left: 5px;
+  padding-right: 15px;
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.4);
 }
 /* TITULO */
 
